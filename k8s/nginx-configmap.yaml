@@ -6,7 +6,7 @@ data:
   nginx.conf: |
     server {
         listen 80;
-        server_name nginx-dyma.fr www.nginx-dyma.fr;
+        server_name nginx-lt.fr www.nginx-lt.fr;
 
         index index.html;
         root /usr/share/nginx/html;

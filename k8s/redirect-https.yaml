@@ -2,7 +2,7 @@ apiVersion: networking.gke.io/v1beta1
 kind: FrontendConfig
 metadata:
   name: redirect-https
-spec:
+spec: 
   redirectToHttps:
-    enabled: true
-    responseCodeName: MOVED_PERMANENTLY_DEFAULT
+    enabled: True
+    responseCodeName: MOVE_PERMANENTLY_DEFAULT

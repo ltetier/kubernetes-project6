@@ -9,5 +9,5 @@ spec:
       app.kubernetes.io/instance: mongodb
       app.kubernetes.io/name: mongodb
   endpoints:
-    - port: 9216
-      interval: 30s
+  - port: 9216
+    interval: 30s
